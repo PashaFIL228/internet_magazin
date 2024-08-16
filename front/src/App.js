@@ -1,6 +1,13 @@
+import Header from "./compomets/Header";
+import Footer from "./compomets/Footer";
+
+
 function App() {
   return (
-    <div>Shop</div>
+    <div className="wrapper">
+      <Header />
+      <Footer />
+    </div>
   );
 }
 
